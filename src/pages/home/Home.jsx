@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../../assets/home.jpg"
+import Profile from "../../assets/home.jpeg"
 import {Link} from "react-router-dom"
 import {FaArrowRight} from "react-icons/fa"
 import "./home.css"
@@ -12,11 +12,11 @@ const Home = () => {
             <div className="home__content">
                 <div className="home__data">
                     <h1 className="home__title">
-                        <span>I'm Steve Milner.</span> Web Designer
+                        <span>I'm Abbosxon Abdujalilov.</span> Java Software Engineer
                     </h1>
 
                     <p className="home__description">
-                        I'm a Tunisian based web designer & front-end developer focused on
+                        I'm a Uzbekistan based Java Software Engineer & Full Stack developer focused on
                         crafting clean & user-friendly experiences, I am passionate about
                         building excellent software that improves the lives of those around
                         me.
@@ -30,6 +30,8 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
+
+            <div className="color__block"></div>
         </section>
     )
 }
